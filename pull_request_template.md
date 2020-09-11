@@ -14,7 +14,7 @@
 
 - **Don't waste my time.** Do a good job, adhere to all the guidelines, and be responsive.
 - **You have to review at least 2 other [open pull requests](https://github.com/sindresorhus/awesome/pulls?q=is%3Apr+is%3Aopen).**
-	Try to prioritize unreviewed PRs, but you can also add more comments to reviewed PRs. Go through the below list when reviewing. This requirement is meant to help make the Awesome project self-sustaining. Comment here which PRs you reviewed. You're expected to put a good effort into this and to be thorough. Look at previous PR reviews for inspiration.
+	Try to prioritize unreviewed PRs, but you can also add more comments to reviewed PRs. Go through the below list when reviewing. This requirement is meant to help make the Awesome project self-sustaining. Comment here which PRs you reviewed. You're expected to put a good effort into this and to be thorough. Look at previous PR reviews for inspiration. **Just commenting “looks good” or simply marking the pull request as approved does not count!** You have to actually point out mistakes or improvement suggestions.
 - You have read and understood the [instructions for creating a list](create-list.md).
 - This pull request has a title in the format `Add Name of List`.
 	- ✅ `Add Swift`
@@ -22,6 +22,7 @@
 	- ❌ `Update readme.md`
 	- ❌ `Add Awesome Swift`
 	- ❌ `Add swift`
+	- ❌ `add Swift`
 	- ❌ `Adding Swift`
 	- ❌ `Added Swift`
 - Your entry here should include a short description about the project/theme of the list. **It should not describe the list itself.** The first character should be uppercase and the description should end in a dot. It should be an objective description and not a tagline or marketing blurb.
@@ -87,6 +88,7 @@
 	- The link and description are separated by a dash. <br>Example: `- [AVA](…) - JavaScript test runner.`
 	- The description starts with an uppercase character and ends with a period.
 	- Consistent and correct naming. For example, `Node.js`, not `NodeJS` or `node.js`.
+- Doesn't use [hard-wrapping](https://stackoverflow.com/questions/319925/difference-between-hard-wrap-and-soft-wrap).
 - Doesn't include a Travis badge.<br>You can still use Travis for list linting, but the badge has no value in the readme.
 - Doesn't include an `Inspired by awesome-foo` or `Inspired by the Awesome project` kinda link at the top of the readme. The Awesome badge is enough.
 
